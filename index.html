@@ -7,7 +7,90 @@
   <link rel="stylesheet" href="./assets/style.css" />
 </head>
 <body>
-  
+  <div class="card">
+    <h1>Weather Dashboard</h1>
+
+    <main>
+      <section id="search-container">
+        <aside>
+          <div id="selector" class="selector-hidden"></div>
+          <form id="search">
+            <input type="text">
+            <button type="submit" id="search-btn">Search</button>
+          </form>
+           <button id="clear-history">Clear search history</button>
+        </aside>
+        <div id="previous-searches">  
+
+        </div>
+      </section>
+      <section id="weather-display">
+        <div id="main-card">
+          <div id="todays-day"><span id="city-name">Austin</span> - <span id="todays-date"></span></div>
+          <hr>
+          <div id="todays-info">
+            <div><img src="" id="today-img"></div>
+            <span id="today-max"></span>
+            <span id="today-min"></span>
+            <span id="today-wind"></span>
+            <span id="today-humidity"></span>
+            <span id="today-uv" class="severe-uv">UV: High</span>
+          </div>
+        </div>
+        <div class="five-day">
+          5 day forecast
+        </div>
+        <div id="container-daily-cards">
+          <div class="daily-card" data-fiveday="0">
+            <p class="day"></p>
+            <hr>
+            <img src="" class="weather-img">
+            <p class="max"></p>
+            <p class="min"></p>
+            <p class="wind"></p>
+            <p class="humidity"></p>
+          </div>        
+          <div class="daily-card" data-fiveday="1">
+            <p class="day"></p>
+            <hr>
+            <img src="" class="weather-img">
+            <p class="max"></p>
+            <p class="min"></p>
+            <p class="wind"></p>
+            <p class="humidity"></p>
+          </div>        
+          <div class="daily-card" data-fiveday="2">
+            <p class="day"></p>
+            <hr>
+            <img src="" class="weather-img">
+            <p class="max"></p>
+            <p class="min"></p>
+            <p class="wind"></p>
+            <p class="humidity"></p>
+          </div>        
+          <div class="daily-card" data-fiveday="3">
+            <p class="day"></p>
+            <hr>
+            <img src="" class="weather-img">
+            <p class="max"></p>
+            <p class="min"></p>
+            <p class="wind"></p>
+            <p class="humidity"></p>
+          </div>        
+          <div class="daily-card" data-fiveday="4">
+            <p class="day"></p>
+            <hr>
+            <img src="" class="weather-img">
+            <p class="max"></p>
+            <p class="min"></p>
+            <p class="wind"></p>
+            <p class="humidity"></p>
+          </div>
+
+        </div>
+      </section>
+      
+    </main>
 
   <script src="./assets/script.js"></script>
 </body>
