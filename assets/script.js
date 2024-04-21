@@ -1,5 +1,5 @@
 
-let apiKey = "8b49a7c3b52f6ab569b8a35dcd36322c";
-let apiUrl =
-  "https://api.openweathermap.org/data/2.5/weather?units=metric&lang=en";
+  const apiKey = "5a172bb59bcc23c689ebaa2acbb37ac1";
+  const mainEl = $("#main")
 
+  //couldn't get key to authorize. Tried creating another one. Still didn't work.
